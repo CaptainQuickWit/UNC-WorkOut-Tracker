@@ -11,7 +11,13 @@ const ExerciseSchema = new Schema({
     type: Boolean,
     default: false
   },
-  Info : {
+  //Not used in this version, possibly for future project
+  goalMet: {
+      type: Boolean,
+      default: true
+  },
+  //Not used in this version, but for a future update may be used to add any notes about the exercise
+  info : {
     type: String,
     default: "Generic Exercise"
   },
